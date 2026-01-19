@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jeevan G M | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!-- Navbar -->
+  <header class="header">
+    <nav class="nav container">
+      <a href="#" class="logo">Jeevan<span>.</span></a>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#certificates" class="nav-link">Certificates</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <button class="theme-btn" id="themeBtn" aria-label="Toggle theme">🌙</button>
+        <button class="menu-btn" id="menuBtn" aria-label="Open menu">☰</button>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero" id="home">
+    <div class="container hero-grid">
+      <div class="hero-left">
+        <p class="chip">Cybersecurity • Web Developer</p>
+        <h1>
+          Hi, I’m <span class="accent">Jeevan G M</span><br />
+          I build modern & responsive websites.
+        </h1>
+        <p class="subtitle">
+          Computer Science Engineering (Cybersecurity) student passionate about building clean UI and learning secure software practices.
+        </p>
+
+        <div class="hero-cta">
+          <a class="btn primary" href="#projects">View Projects</a>
+          <a class="btn ghost" href="#contact">Hire Me</a>
+        </div>
+
+        <div class="hero-stats">
+          <div class="stat">
+            <h3>2026</h3>
+            <p>Graduating</p>
+          </div>
+          <div class="stat">
+            <h3>8.10</h3>
+            <p>CGPA</p>
+          </div>
+          <div class="stat">
+            <h3>2+</h3>
+            <p>Projects</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-right">
+        <div class="profile-card">
+          <div class="avatar">
+            <span>JG</span>
+          </div>
+          <div class="profile-info">
+            <h2>Jeevan G M</h2>
+            <p>Bengaluru, Karnataka</p>
+          </div>
+
+          <div class="profile-links">
+            <a href="mailto:jeevanmanjuanth072@gmail.com" class="link">📧 Email</a>
+            <a href="tel:+918553275906" class="link">📞 Call</a>
+            <a href="https://www.linkedin.com/in/jeevan-g-m/" target="_blank" class="link">🔗 LinkedIn</a>
+          </div>
+
+          <div class="mini-note">
+            <p><b>Goal:</b> Entry-level role in Web / Security domain to build secure & scalable applications.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="section-head">
+        <h2>About Me</h2>
+        <p>Quick introduction about my background and what I’m working towards.</p>
+      </div>
+
+      <div class="about-grid">
+        <div class="card">
+          <h3>Objective</h3>
+          <p>
+            I’m a Computer Science Engineering student specializing in Cybersecurity with hands-on web development experience.
+            I enjoy building responsive user interfaces and learning security fundamentals to develop reliable software solutions.
+          </p>
+        </div>
+
+        <div class="card">
+          <h3>Education</h3>
+          <ul class="list">
+            <li><b>B.Tech CSE (Cybersecurity)</b> — GITAM University (2026) • CGPA: 8.10</li>
+            <li><b>PUC</b> — Mahila Samaja P.U College (2022) • 89.33%</li>
+            <li><b>SSLC</b> — Smt. Yalamma Memorial High School (2020) • 91.04%</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section class="section" id="skills">
+    <div class="container">
+      <div class="section-head">
+        <h2>Skills</h2>
+        <p>My technical and soft skill set.</p>
+      </div>
+
+      <div class="skills-grid">
+        <div class="card">
+          <h3>Technical</h3>
+          <div class="tags">
+            <span class="tag">HTML</span>
+            <span class="tag">CSS</span>
+            <span class="tag">JavaScript</span>
+            <span class="tag">Bootstrap</span>
+            <span class="tag">Python</span>
+            <span class="tag">SQL</span>
+            <span class="tag">Wireshark</span>
+            <span class="tag">Autopsy</span>
+          </div>
+        </div>
+
+        <div class="card">
+          <h3>Soft Skills</h3>
+          <ul class="list">
+            <li>Good verbal & written communication</li>
+            <li>Problem-solving & analytical thinking</li>
+            <li>Adaptability & time management</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <h3>What I focus on</h3>
+          <p>
+            Clean UI, responsive layouts, performance basics, and security awareness while building web applications.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section class="section" id="projects">
+    <div class="container">
+      <div class="section-head row-between">
+        <div>
+          <h2>Projects</h2>
+          <p>Some of my academic and development work.</p>
+        </div>
+
+        <div class="filter">
+          <input type="text" id="searchInput" placeholder="Search projects..." />
+        </div>
+      </div>
+
+      <div class="project-grid" id="projectGrid">
+        <!-- Project Card 1 -->
+        <article class="project card" data-title="Autonomous Monitoring System to detect cyber threats">
+          <div class="project-top">
+            <h3>Autonomous Monitoring System</h3>
+            <p class="muted">Cybersecurity • SIEM</p>
+          </div>
+          <p>
+            Developing an autonomous monitoring system to detect cyber threats like brute force, DDoS, and vulnerability exploitation using SIEM concepts.
+          </p>
+          <div class="project-tags">
+            <span class="pill">SIEM</span>
+            <span class="pill">Threat Detection</span>
+            <span class="pill">Security</span>
+          </div>
+          <div class="project-actions">
+            <button class="btn small ghost open-modal" data-modal="modal1">View Details</button>
+          </div>
+        </article>
+
+        <!-- Project Card 2 -->
+        <article class="project card" data-title="Todos Application">
+          <div class="project-top">
+            <h3>Todos Application</h3>
+            <p class="muted">Frontend • CRUD</p>
+          </div>
+          <p>
+            A task manager with full CRUD operations and persistent storage. Responsive UI using HTML, CSS, JS and Bootstrap.
+          </p>
+          <div class="project-tags">
+            <span class="pill">HTML</span>
+            <span class="pill">CSS</span>
+            <span class="pill">JavaScript</span>
+          </div>
+          <div class="project-actions">
+            <button class="btn small ghost open-modal" data-modal="modal2">View Details</button>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Certificates -->
+  <section class="section" id="certificates">
+    <div class="container">
+      <div class="section-head">
+        <h2>Certificates</h2>
+        <p>Some of the courses I have completed.</p>
+      </div>
+
+      <div class="cert-grid">
+        <div class="card cert">Build Your Own Responsive Website</div>
+        <div class="card cert">Build Your Own Static Website</div>
+        <div class="card cert">Build Your Own Dynamic Web Application</div>
+        <div class="card cert">JavaScript Essentials</div>
+        <div class="card cert">Introduction to Databases</div>
+        <div class="card cert">Programming Foundations with Python</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="section" id="contact">
+    <div class="container">
+      <div class="section-head">
+        <h2>Contact</h2>
+        <p>Let’s connect and build something great.</p>
+      </div>
+
+      <div class="contact-grid">
+        <div class="card">
+          <h3>Details</h3>
+          <ul class="list">
+            <li><b>Email:</b> jeevanmanjuanth072@gmail.com</li>
+            <li><b>Phone:</b> +91 8553275906</li>
+            <li><b>Location:</b> Bengaluru, Karnataka</li>
+            <li><b>LinkedIn:</b> <a href="https://www.linkedin.com/in/jeevan-g-m/" target="_blank">jeevan-g-m</a></li>
+          </ul>
+        </div>
+
+        <form class="card form" id="contactForm">
+          <h3>Send a message</h3>
+
+          <label>
+            Your Name
+            <input type="text" id="name" placeholder="Enter your name" required />
+          </label>
+
+          <label>
+            Your Email
+            <input type="email" id="email" placeholder="Enter your email" required />
+          </label>
+
+          <label>
+            Message
+            <textarea id="message" rows="5" placeholder="Type your message..." required></textarea>
+          </label>
+
+          <button class="btn primary" type="submit">Send Message</button>
+          <p class="form-status" id="formStatus"></p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-row">
+      <p>© <span id="year"></span> Jeevan G M • All rights reserved.</p>
+      <a class="top-link" href="#home">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <!-- Modal 1 -->
+  <div class="modal" id="modal1">
+    <div class="modal-box">
+      <div class="modal-head">
+        <h3>Autonomous Monitoring System</h3>
+        <button class="modal-close">✕</button>
+      </div>
+      <p>
+        An academic cybersecurity project to monitor and detect malicious activities such as brute force attempts,
+        DDoS patterns and potential vulnerability exploitation using SIEM-based ideas.
+      </p>
+      <ul class="list">
+        <li>Focus: Threat detection and prevention</li>
+        <li>Concepts: Logs, monitoring, alerting</li>
+        <li>Goal: Improve security visibility</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Modal 2 -->
+  <div class="modal" id="modal2">
+    <div class="modal-box">
+      <div class="modal-head">
+        <h3>Todos Application</h3>
+        <button class="modal-close">✕</button>
+      </div>
+      <p>
+        A responsive task management web app with CRUD operations and persistent data storage using browser localStorage.
+      </p>
+      <ul class="list">
+        <li>Create / Update / Delete tasks</li>
+        <li>LocalStorage support</li>
+        <li>Simple & clean UI</li>
+      </ul>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
